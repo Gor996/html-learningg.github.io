@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- Created using eXe: http://exelearning.org -->
+<head>
+<style type="text/css">
+@import url(base.css);
+@import url(content.css);
+@import url(nav.css);</style>
+<title> FRAME-ի հիմնական տեգերը </title>
+<meta http-equiv="Content-Type" content="text/html;  charset=utf-8" />
+<script type="text/javascript" src="common.js"></script>
+</head>
+<body>
+<div id="content">
+<div id="navcontainer">
+<ul id="navlist">
+<div><a href="index.html" class="withChild">Ինտերնետ կայքերի կառուցում HTML կոդի կիրառմամբ</a></div>
+<div><a href="_1.html" class="withoutChild">Համացանցի հիմնադիրը</a></div>
+<div><a href="_2.html" class="withoutChild">Բացատրական բառարան</a></div>
+<div><a href="__1.html" class="withChild">Ներածություն. Հիմնական սահմանումները</a></div>
+<div><a href="__2.html" class="withChild">Տեքստի ֆորմատավորման տեգերը</a></div>
+<div><a href="_4.html" class="withChild">Վազող տող</a></div>
+<div><a href="_6.html" class="withChild">Պատկերների ներդնում</a></div>
+<div><a href="___4.html" class="withChild">Հղումների ստեղծում և կիրառում</a></div>
+<div><a href="___5.html" class="withChild">Աղյուսակների ստեղծում և կիրառում</a></div>
+<div><a href="____8.html" class="withChild">Ֆրեյմերի կառուցվածքը, ստեղծումը և կիրառումը</a></div>
+<div id="subnav" class="withChild">
+<div><a href="_n7.html" class="withChild">Նախագիծ N7</a></div>
+<div id="subnav" class="withoutChild">
+<div><a href="frameset_____.html" class="withoutChild">FRAMESET տեգ-գործիք:  Կառուցվածքը, կիրառման սկզբունքները</a></div>
+<div id="active" class="withoutChild">FRAME-ի հիմնական տեգերը</div>
+<div><a href="frame___.html" class="withoutChild">&lt;FRAME&gt; տեգի օժանդակ հատկությունները</a></div>
+<div><a href="___9_.html" class="withoutChild">Գործնական աշխատանք 9</a></div>
+<div><a href="____9.html" class="withoutChild">Գործնական ամփոփիչ աշխատանք</a></div>
+<div><a href="____7_.html" class="withoutChild">Հարցեր և առաջադրանքներ</a></div>
+</div>
+</div>
+<div><a href="___7.html" class="withChild">Ոճերի ստեղծումը և կիրառումը</a></div>
+</ul>
+</div>
+<div id="main">
+<div id="nodeDecoration"><p id="nodeTitle">FRAME-ի հիմնական տեգերը</p></div>
+<div class="activityIdevice" id="id150">
+<div class="iDevice emphasis1">
+<img alt="IDevice Icon"      class="iDevice_icon" src="icon_activity.gif"/>
+<span class="iDeviceTitle">FRAME, FRAMESET - COLS, ROWS, SRC</span>
+<div class="iDevice_inner">
+<div id="ta150_62_2" class="block" style="display:block">
+
+<p align="justify">
+
+<font face="georgia,palatino" size="3">Երկու ֆրեյմները կարելի է տեղադրել կողք կողքի, կամ մեկը մյուսի վրա: Տեղադրման միջոցի նշանակման համար օգտագործվում է </font><font face="georgia,palatino" size="3"><font color="#0000ff"><b>COLS</b></font></font><font face="georgia,palatino" size="3">  հատկանիշը (եթե կողք կողքի), կամ <font color="#0000ff"><b>ROWS</b></font>
+
+(եթե մեկը մյուսի վրա): Որպեսզի բաժանենք պատուհանը երկու ֆրեյմի,
+
+ստորակետերով ցույց են տալիս երկու թիվ: Այդ թվերը ցուցադրում են ֆրեյմերի
+
+չափերը: Երեք ֆրեյմերի համար նշանակվում են երեք թվեր: Եթե անհրաժեշտ է
+
+ցուցադրել, որ ֆրեյմը զբաղեցնում է մնացած ամբողջ տարածքը, օգտագործվում է
+
+աստղանիշ (*) սիմվոլը: Ֆրեյմերի չափսերը չափվում են պիկսելներով
+
+(կետիկներով), կամ տոկոսներով: Վերջին դեպքում թվի կողքին մուտքագրվում է
+
+տոկոսի սիմվոլը (%):</font>
+
+</p>
+
+<div align="justify">
+
+</div>
+
+<p align="justify">
+
+<font face="georgia,palatino" size="3">Օրինակ, <b>&lt;FRAMESET <font color="#0000ff">COLS=&quot;50,*&quot;</font>&gt;</b>
+
+նշանակում է պատուհանի կիսումը երկու ուղղահայաց ֆրեյմերի, որոնցից
+
+առաջինը ունի 50 կետիկ (պիկսել) լայնություն, իսկ երկրորդը զբաղեցնում է
+
+ամբողջ մնացած տարածքը:</font>
+
+</p>
+
+<div align="justify">
+
+</div>
+
+<p align="justify">
+
+<font face="georgia,palatino" size="3"><b>&lt;FRAMESET <font color="#0000ff">ROWS=&quot;30%,70%,*&quot;</font>&gt;</b> տեգը նշանակում է բաժանումը երեք ուղղահայաց ֆրեյմերի 20%, 10% և 70% բարձրության:</font>
+
+</p>
+
+<div align="justify">
+
+</div>
+
+<p align="justify">
+
+<font face="georgia,palatino" size="3">Միաժամանակ կարելի է օգտագործել և հորիզոնական, և ուղղահայաց բաժանումները պատուհանի, ֆրեյմերի: Դա կատարվում է <b>&lt;FRAMESET&gt;</b> տեգերի ներդրումով միմյանց մեջ, այսինքն տեղադրելով ֆրեյմը ֆրեյմի մեջ:</font>
+
+</p>
+
+<div align="justify">
+
+</div>
+
+<p align="justify">
+
+<font face="georgia,palatino" size="3">Ֆրեյմի դիրքի նշանակումից հետո,
+
+անհրաժեշտ է ցուցադրել նրանցից յուրաքանչյուրի սկզբնական
+
+HTML-փաստաթուղթը: Օրինակ, այն թե որ սկզբնական փաստաթուղթը պետք է
+
+ցուցադրվի: Այդ նպատակի համար ծառայում է <b>&lt;FRAME&gt;</b> տեգը, որը ունի շատ հատկանիշներ, որոնք ղեկավարվում են ֆրեյմերի հատկություններով: Ներքևում թվարկվում են այդ հատկանիշները:</font>
+
+</p>
+
+<div align="justify">
+
+</div>
+
+<p align="justify">
+
+<font face="georgia,palatino" size="3"><b>src=<font color="#0000ff">&quot;փաստաթղթի_անունը&quot;</font> NAME=<font color="#0000ff">&quot;Ֆրեյմի_անունը&quot;</font></b> - յուրաքանչյուր ֆրեյմ պետք է ունենալ անուն, որը վերհիշվում է <b>NAME</b>-ի հատկանիշներում, և նրան պետք է կապված լինի HTML-փաստաթուղթը, <b>SRC</b>-ի հատկանիշում ցուցադրվող:</font>
+
+</p>
+
+<table border="0">
+
+	<tbody>
+
+		<tr>
+
+			<td>
+
+			<div style="text-align: center">
+
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" width="871" height="564">
+
+				<param name="width" value="871" />
+
+				<param name="height" value="564" />
+
+				<param name="play" value="false" />
+
+				<param name="scale" value="exactfit" />
+
+				<param name="src" value="d0a1d0bbd0b0d0b9d0b45f3137.swf" />
+
+				<embed type="application/x-shockwave-flash" width="871" height="564" play="false" scale="exactfit" src="d0a1d0bbd0b0d0b9d0b45f3137.swf"></embed>
+
+			</object>
+
+			</div>
+
+			</td>
+
+		</tr>
+
+	</tbody>
+
+</table>
+
+<p align="center">
+
+<br />
+
+ 
+
+</p>
+
+<div style="text-align: center">
+
+</div>
+
+<p>
+
+&nbsp;
+
+</p>
+
+</div><br/>
+</div>
+</div>
+</div>
+<div class="noprt" align="right"><a href="frameset_____.html">&laquo; Նախորդ</a> | <a href="frame___.html"> Հաջորդ &raquo;</a></div>
+</div>
+</div>
+</body></html>

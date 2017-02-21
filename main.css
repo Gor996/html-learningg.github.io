@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+}
+
+.help{
+    text-align: center;
+    color: #fff;
+    margin: 280px auto 0;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.clean{
+    clear: both;
+}
+
+.content{
+
+    width: 600px;
+    height: 150px;
+    margin: 0 auto;
+
+}
+
+.brows{
+
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.b_name{
+    text-align: center;
+    color: yellow;
+}
+
+.b_name a{
+    text-decoration: none;
+    color: yellow;
+}
